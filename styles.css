@@ -101,10 +101,22 @@ margin-bottom: 20px;
     color: lightgray;
 }
 
+.img-text-wrapper .subtitle a {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle a{
+    font-weight: 600;
+    color: lightgray;
+}
+
 .img-darken {
     transition: 1s;
     filter: brightness(10%);
 }
+
 
 /* About page style */
 .two-column-wrapper {
@@ -121,10 +133,18 @@ margin-bottom: 20px;
     padding: 30px;
 }
 
-.profile-content-wrapper h1 {
-    color: lightgrey;
+.profile-content-wrapper {
+    color: #E5E4E2;
 }
 
 .brand {
-    color: silver;
+    color: #E5E4E2;
+}
+
+
+/* CV page style */
+.pdf-display {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
